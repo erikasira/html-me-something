@@ -1,7 +1,7 @@
 h1 {
     color: #ffffff;
-    font-size: 40px;
-    font-family: 'Mansalva', cursive;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     }
 
@@ -11,7 +11,7 @@ h1 {
 
 #container {
     margin: 0 auto;
-    background-color: #4b0b0b;
+    background-color: #64a4b4;
     width: 1200px;
     padding: 10px;
     height: 800px;
@@ -19,8 +19,8 @@ h1 {
 }
 
 header {
-    background-color: green;
-    margin-top: 10px;
+    background-color: rgba(219, 4, 4, 0.74);
+    margin-top: 20px;
 }
 
 ul {
@@ -28,7 +28,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #e77777;
+    background-color: #a877e7;
   }
 
   li {
@@ -39,6 +39,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
     padding: 14px 16px;
     text-decoration: none;
   }
@@ -49,16 +50,18 @@ ul {
   }
 
 #content-left {
-    background-color: blue;
+    background-color: rgba(255, 136, 0, 0.692);
     margin: 10px;
     float: left;
-    width: 440px;
+    font-family: 'Poppins', sans-serif;
+    width: 400px;
     padding: 10px;
 }
 
 #content-right {
-    background-color: orange;
+    background-color: rgba(255, 0, 0, 0.63);
     float: right;
+    font-family: 'Poppins', sans-serif;
     width: 680px;
     padding: 10px;
     margin: 10px;
@@ -70,5 +73,6 @@ ul {
 
 footer {
     float: left;
+    font-family: 'Poppins', sans-serif;
     width: 1200px;
 }
